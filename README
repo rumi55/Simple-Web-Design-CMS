@@ -1,0 +1,59 @@
+Simple Web Design CMS
+
+Simple CMS system made for Web Designers written in PHP. Just one PHP file easy setup and no database required. Works fine on *nix systems on windows i don't know (you can try).
+
+Current release:
+
+20091109
+
+Fork it on:
+
+https://github.com/jhwd/Simple-Web-Design-CMS
+
+Requirements:
+
+A webserver like Apache and PHP >= 5 running.
+
+Update (2009-11-09):
+
+    It is now possible to create and edit hidden files like .htaccess
+    There is no need to set or create a upload folder any more
+    Design is a bit nicer now
+
+Update (2009-11-06):
+
+    Some PHP warnings are gone now
+
+Update (2009-11-04):
+
+    Setting multiple usernames with password is now possible
+    You can set the file size limit for file uploading
+    The logout link works fine now
+
+Update (2009-11-03):
+
+    Uploading files is now possible
+    A nice hover over the directory list (not in IE)
+    If you make a change you get a notice in red
+    Documentation and License link at the bottom
+
+How to:
+
+    Download
+    Unzip download
+    Open simplewebdesigncms.php in your favorite editor
+        Set your username and password (or multiple usernames with password)
+        Disable extentions for editing (e.g. .gif .jpg .png .ico) or leave default
+        Set path to document root or leave default
+        Set maximum file size for file upload or leave default
+        Upload simplewebdesigncms.php to your Apache webserver
+    Give write permissions to document root directory like CHMOD 0777
+    Open a browser like Firefox and surf to simplewebdesigncms.php
+    Login with your username and password
+    Create folders, create files, edit files or upload files
+    That is it!
+
+Found a problem:
+
+Please let me know if you find any problems at info[AT]jhwd[DOT]nl
+
